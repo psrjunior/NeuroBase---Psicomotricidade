@@ -278,7 +278,7 @@ def appointments_page():
 
 def grouping_page():
     st.title("Grupos Sugeridos")
-    if st.button("Gerar Grupos"'):
+    if st.button("Gerar Grupos"):
         patients = fetch_all('patients')
         # Simple grouping by diagnosis
         groups = {}
